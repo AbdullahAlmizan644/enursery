@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% load static %}
+
+
+{% block content %}
+<!-- Modal -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" method="get" class="modal-content modal-body border-0 p-0">
+            <div class="input-group mb-2">
+                <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                <button type="submit" class="input-group-text bg-success text-light">
+                    <i class="fa fa-fw fa-search text-white"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<section class="bg-success py-5">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-md-8 text-white">
+                <h1>About Us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius assumenda ad voluptas soluta
+                    voluptatibus recusandae quae aspernatur doloremque illum sequi voluptatum, eveniet quas pariatur
+                    facere voluptatem quaerat quam, facilis voluptates molestiae? Molestiae sint maiores reprehenderit
+                    excepturi debitis! Dolorem, sint vitae voluptatum alias minus hic ipsa ducimus accusantium
+                    consequatur, sunt, placeat corporis? Recusandae, omnis veritatis repellendus sed accusantium quos
+                    adipisci nisi officiis et, totam tempore molestiae, atque quibusdam quam dignissimos vel! Ducimus
+                    doloribus aut ea sapiente optio nesciunt eos voluptatibus autem atque distinctio. Vitae magni
+                    numquam voluptas voluptates fugit suscipit quasi, minima sapiente ipsam nobis laboriosam rerum
+                    commodi omnis, ratione laudantium mollitia fugiat ducimus. Necessitatibus, cupiditate illo? Fugit
+                    consequuntur, vero alias quaerat repellendus nulla laboriosam suscipit mollitia vel recusandae animi
+                    voluptate tempore illum nisi fugiat corrupti? Libero atque distinctio consequatur impedit iure nihil
+                    velit voluptate? Debitis porro asperiores pariatur nihil eos? Provident, tempora laborum quam
+                    voluptatum optio culpa accusantium animi a magni sequi inventore corrupti earum, iste expedita ex
+                    praesentium ut enim placeat, quibusdam sunt. Voluptates tempora itaque in id similique soluta
+                    corrupti sed ipsum autem, aut, ipsam ad quam accusantium beatae maiores velit eos voluptas aliquid,
+                    totam eligendi! Sequi soluta quaerat quidem, at dolores, quia expedita tempora dolore asperiores
+
+                </p>
+            </div>
+            <!--<div class="col-md-4">
+                    <img src={% static "front/assets/img/about-hero.svg" %} alt="About Hero">
+                </div>-->
+        </div>
+    </div>
+</section>
+
+{% endblock %}
